@@ -1,0 +1,250 @@
+/*MAIN*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%; }
+
+/*
+================================================================================
+|                                     HEADER                                   |
+================================================================================
+*/
+.container_header{
+	width: 100%;
+	max-width: 1061px;
+	margin: 0 auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.pt_50{padding-top: 50px;}
+
+.header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo{
+	display: flex;
+}
+.menu{
+	display: flex;
+	font-family: 'Slabo 27px', serif;
+	width: 580px;
+}
+
+.nav{
+	display: flex;
+}
+
+.nav>li{
+	display: flex;
+	padding-left: 80px;
+	list-style: none;
+}
+.nav>li>a{
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.nav>li>a:hover{
+	border-bottom: 1px solid #323232;
+}
+.header__img{
+	padding-top: 20px;
+}
+/*
+================================================================================
+|                                     photodiary                                   |
+================================================================================
+*/
+.container_content{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.photodiary{
+	padding-top: 70px;
+}
+.photodiary_span{
+	color: #c7c1b6;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.photodiary_h1{
+	padding-top: 20px;
+	font-family: 'Song Myung', serif;
+	font-size: 30px;
+	color: #626262;
+}
+.photodiary_text{padding-top: 30px;}
+.photodiary_text>span{
+	color: #818181;
+	font-family: 'Slabo 27px', serif;
+	font-size: 14px;
+}
+.photodiary_span_bot{
+	padding-top: 50px;
+	color: #c7c1b6;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+/*
+================================================================================
+|                                     Photo                                   |
+================================================================================
+*/
+.photo{padding-top: 100px;}
+.photo_content{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.photo__cont_all{
+	display: flex;
+	flex-direction: column;
+	max-width: 420px;
+}
+.photo__cont_all>img{
+	max-height: 280px;
+}
+.photo_span_bot{
+	padding-top: 20px;
+	color: #c7c1b6;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.photo_h1{
+	padding-top: 10px;
+	font-family: 'Song Myung', serif;
+	font-size: 30px;
+	color: #626262;
+}
+.photo_text{
+	padding-top: 10px;
+	color: #818181;
+	font-family: 'Slabo 27px', serif;
+	font-size: 14px;
+}
+.p60{padding-top: 60px;}
+/*
+================================================================================
+|                                     Input                                   |
+================================================================================
+*/
+.section__input{
+	margin-top: 120px;
+	padding-bottom: 50px;
+	background-color: #f0f0f0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.input_h{
+	padding-top: 50px;
+	font-family: 'Song Myung', serif;
+	font-size: 30px;
+	color: #323232;
+}
+.form_input{
+	font-family: 'Slabo 27px', serif;
+	padding: 7px 25px;
+	margin-top: 30px;
+	border:  0px;
+	border-bottom: 1px solid #818181;
+	border-top: 1px solid #818181;
+	background-color: #f0f0f0;
+}
+.form_submit{
+	margin-top: 20px;
+	margin-left: 23px;
+	padding: 7px 40px;
+	font-family: 'Slabo 27px', serif;
+	border:  1px solid #818181;
+	background-color: #f0f0f0;
+}
+.form_submit:hover{
+	color: #fff;
+	border:  1px solid #818181;
+	background-color: #818181;
+}
+/*
+================================================================================
+|                                     Photo_last                                   |
+================================================================================
+*/
+.buttom_last{
+	padding-top: 80px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+.buttom_last>a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #818181;
+    border: 1px solid #818181;
+    font-family: 'Song Myung', serif;
+}
+.buttom_last>a:hover{
+	color: #fff;
+    border: 1px solid #818181;
+    background-color: #818181;
+}
+/*
+================================================================================
+|                                     Footer                                   |
+================================================================================
+*/
+.footer{
+	margin-top: 40px;
+	padding: 20px 0;
+	background-color: #f0f0f0;
+}
+.footer_content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer_left{
+	display: flex;
+	flex-direction: row;
+}
+.footer_left>a{
+	margin-right: 10px;
+	text-decoration: none;
+	color: #818181;
+    font-family: 'Song Myung', serif;
+}
+.footer_left>a:hover{
+	color: #656565;
+	border-bottom: 1px solid #656565;
+}
+.footer_right{
+	display: flex;
+	flex-direction: row;
+}
+.footer_right>a{
+	margin-right: 10px;
+	text-decoration: none;
+	color: #818181;
+    font-family: 'Song Myung', serif;
+}
+.footer_right>a:hover{
+	color: #656565;
+	border-bottom: 1px solid #656565;
+}
+.footer_right>i{
+	margin-right: 10px;
+	color: #818181;
+}
+.footer_right>i:hover{
+	color: #656565;
+}
